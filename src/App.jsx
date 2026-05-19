@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import Blog from './components/Blog';
-import BlogPostDetail from './components/BlogPostDetail';
-import Appointments from './components/Appointments';
-import ScrollToTop from './components/ScrollToTop';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import BlogPostDetail from './pages/BlogPostDetail';
+import Appointments from './pages/Appointments';
+import ScrollToTop from './components/layout/ScrollToTop';
 
 function App() {
   return (
